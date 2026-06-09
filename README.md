@@ -9,9 +9,10 @@ The workflow simulates how modern organizations manage customer feedback by auto
 The system processes customer submissions and automatically routes them to the appropriate workflow based on the feedback type.
 
 
-Features
+ Features
 
-Feedback Classification
+
+1. Feedback Classification
 
 Automatically classifies customer feedback into:
 
@@ -20,8 +21,7 @@ Automatically classifies customer feedback into:
 * Improvement Request
 
 
-
-Ticket Management
+2. Ticket Management
 
 Generates unique tracking IDs for every submission.
 
@@ -32,8 +32,7 @@ Examples:
 * IMP-XXXXXXXX
 
 
-
-Date & Time Tracking
+3. Date & Time Tracking
 
 Records submission date and time for:
 
@@ -42,8 +41,7 @@ Records submission date and time for:
 * Audit purposes
 
 
-
-Repository Management
+4. Repository Management
 
 Stores feedback in dedicated Google Sheets repositories:
 
@@ -52,14 +50,12 @@ Stores feedback in dedicated Google Sheets repositories:
 * Improvement Repository
 
 
-
-Team Notifications
+5.  Notifications
 
 Automatically sends Slack notifications to relevant teams.
 
 
-
-Customer Communication
+6. Customer Communication
 
 Automatically sends:
 
@@ -68,8 +64,7 @@ Automatically sends:
 * Improvement Request Acknowledgement Emails
 
 
-
-Complaint Follow-up System
+7. Complaint Follow-up System
 
 The workflow:
 
@@ -78,8 +73,7 @@ The workflow:
 3. Sends appropriate updates
 
 
-
-Resolution Management
+8. Resolution Management
 
 When a complaint is resolved:
 
@@ -87,46 +81,30 @@ When a complaint is resolved:
 * Ticket lifecycle is completed
 
 
-
 Workflow Architecture
 
+
 Customer Feedback Form
-
           ↓
-
 Feedback Classification Agent
-
           ↓
-
 Ticket Generation & Timestamp Creation
-
           ↓
-
 Intelligent Routing
-
           ↓
-
 Repository Storage
-
           ↓
-
 Slack Notification
-
           ↓
-
 Customer Acknowledgement
-
           ↓
-
 Status Monitoring
-
           ↓
-
 Follow-up / Resolution Notification
 
 
 
-## Technology Stack
+Technology Stack
 
 * n8n
 * Google Sheets
@@ -148,7 +126,6 @@ Key Learning Outcomes
 * Operational Workflow Development
 
 
-
 Future Improvements
 
 * SLA Tracking
@@ -159,10 +136,5 @@ Future Improvements
 * Multi-Agent Support System
 
 
-
-Author
-
-Dhruv
-
+Author : Dhruv Khandelwal
 Built as a practical workflow automation project to understand how customer feedback systems operate in real-world organizations.
-
