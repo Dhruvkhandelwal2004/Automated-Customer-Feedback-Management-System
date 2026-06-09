@@ -1,12 +1,17 @@
 AI-Powered Customer Feedback Management System
 
+
 Overview
+
 
 This project is an automated Customer Feedback Management System built using n8n.
 
+
 The workflow simulates how modern organizations manage customer feedback by automating feedback classification, ticket generation, customer communication, team notifications, and complaint tracking.
 
+
 The system processes customer submissions and automatically routes them to the appropriate workflow based on the feedback type.
+
 
 
  Features
@@ -21,6 +26,7 @@ Automatically classifies customer feedback into:
 * Improvement Request
 
 
+
 2. Ticket Management
 
 Generates unique tracking IDs for every submission.
@@ -32,6 +38,7 @@ Examples:
 * IMP-XXXXXXXX
 
 
+
 3. Date & Time Tracking
 
 Records submission date and time for:
@@ -39,6 +46,7 @@ Records submission date and time for:
 * Tracking
 * Reporting
 * Audit purposes
+
 
 
 4. Repository Management
@@ -50,9 +58,11 @@ Stores feedback in dedicated Google Sheets repositories:
 * Improvement Repository
 
 
+
 5.  Notifications
 
 Automatically sends Slack notifications to relevant teams.
+
 
 
 6. Customer Communication
@@ -64,6 +74,7 @@ Automatically sends:
 * Improvement Request Acknowledgement Emails
 
 
+
 7. Complaint Follow-up System
 
 The workflow:
@@ -71,6 +82,7 @@ The workflow:
 1. Waits for a defined period
 2. Checks complaint status
 3. Sends appropriate updates
+
 
 
 8. Resolution Management
@@ -81,7 +93,9 @@ When a complaint is resolved:
 * Ticket lifecycle is completed
 
 
+
 Workflow Architecture
+
 
 
 Customer Feedback Form
@@ -104,6 +118,7 @@ Follow-up / Resolution Notification
 
 
 
+
 Technology Stack
 
 * n8n
@@ -112,6 +127,7 @@ Technology Stack
 * Gmail
 * JavaScript
 * AI Agent
+
 
 
 
@@ -126,6 +142,7 @@ Key Learning Outcomes
 * Operational Workflow Development
 
 
+
 Future Improvements
 
 * SLA Tracking
@@ -134,6 +151,7 @@ Future Improvements
 * Analytics Dashboard
 * CRM Integration
 * Multi-Agent Support System
+
 
 
 Author : Dhruv Khandelwal
